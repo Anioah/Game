@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Loteria</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="splashTextAbove">Lotery</string>
+    <string name="splashTextBelow">Game</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="clear">Clear</string>
+    <string name="image">image</string>
+    <string name="game_menu">game Menu</string>
+    <string name="lotery">Lotery</string>
+    <string name="logout">Logout</string>
+    <string name="startGame">Press Begin Card to Start</string>
+    <string name="board">Your Board</string>
+    <string name="number">°N</string>
+    <string name="released_cards">Released cards:</string>
+    <string name="stop_game">Stop Game</string>
+    <string name="return_game">Play</string>
+</resources>

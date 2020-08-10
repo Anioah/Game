@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorStrongBlue">
+
+        <ImageView
+            android:id="@+id/img_vwStart"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:src="@drawable/begin"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/image"/>
+
+        <TextView
+            android:id="@+id/txt_vwInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startGame"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@id/img_vwStart"
+            android:layout_marginVertical="50dp"/>
+
+        <TextView
+            android:id="@+id/txt_vwBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/board"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@id/txt_vwReleasedCards"
+            android:layout_toEndOf="@id/txt_vwCardCount"
+            android:layout_margin="8dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/txt_vwReleasedCards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/released_cards"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@id/img_vwStart"
+            android:layout_marginHorizontal="8dp"/>
+
+        <TextView
+            android:id="@+id/txt_vwCardCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@id/img_vwStart"
+            android:layout_toEndOf="@id/txt_vwReleasedCards" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_vwBoard"
+            android:layout_marginHorizontal="8dp">
+
+                <ImageView
+                    android:id="@+id/img_vw0"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_marginVertical="4dp"/>
+
+                <ImageView
+                    android:id="@+id/img_vw1"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_below="@id/img_vw0"/>
+
+                <ImageView
+                    android:id="@+id/img_vw2"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_below="@id/img_vw1"
+                    android:layout_marginVertical="4dp"/>
+
+                <ImageView
+                    android:id="@+id/img_vw3"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_below="@id/img_vw2"/>
+
+                <ImageView
+                    android:id="@+id/img_vw4"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_toEndOf="@id/img_vw0"
+                    android:layout_marginVertical="4dp"/>
+
+                <ImageView
+                    android:id="@+id/img_vw5"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_below="@id/img_vw4"
+                    android:layout_toEndOf="@id/img_vw1"/>
+
+                <ImageView
+                    android:id="@+id/img_vw6"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_marginVertical="4dp"
+                    android:layout_toEndOf="@id/img_vw2"
+                    android:layout_below="@id/img_vw5"/>
+
+                <ImageView
+                    android:id="@+id/img_vw7"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_below="@id/img_vw6"
+                    android:layout_toEndOf="@id/img_vw3"/>
+
+                <ImageView
+                    android:id="@+id/img_vw8"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_toEndOf="@id/img_vw4"
+                    android:layout_marginVertical="4dp"/>
+
+                <ImageView
+                    android:id="@+id/img_vw9"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_below="@id/img_vw8"
+                    android:layout_toEndOf="@id/img_vw5"/>
+
+                <ImageView
+                    android:id="@+id/img_vw10"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_toEndOf="@id/img_vw6"
+                    android:layout_below="@id/img_vw9"
+                    android:layout_marginVertical="4dp"/>
+
+                <ImageView
+                    android:id="@+id/img_vw11"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_below="@id/img_vw10"
+                    android:layout_toEndOf="@id/img_vw7"/>
+
+                <ImageView
+                    android:id="@+id/img_vw12"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_toEndOf="@id/img_vw8"
+                    android:layout_marginVertical="4dp"/>
+
+                <ImageView
+                    android:id="@+id/img_vw13"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_toEndOf="@id/img_vw9"
+                    android:layout_below="@id/img_vw12"/>
+
+                <ImageView
+                    android:id="@+id/img_vw14"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_toEndOf="@id/img_vw10"
+                    android:layout_below="@id/img_vw13"
+                    android:layout_marginVertical="4dp"/>
+
+                <ImageView
+                    android:id="@+id/img_vw15"
+                    android:layout_width="85dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/begin"
+                    android:contentDescription="@string/image"
+                    android:layout_below="@id/img_vw14"
+                    android:layout_toEndOf="@id/img_vw11"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="invisible"/>
+
+</RelativeLayout>
